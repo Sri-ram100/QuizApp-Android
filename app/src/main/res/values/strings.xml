@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">QuizApp</string>
-    <string name="your_score">Your Score</string>
-    <string name="thomas_shelby">thomas shelby</string>
-    <string name="messi_gmail_com">messiofficial@gmail.com</string>
+    <string name="app_name" translatable="false">QuizApp</string>
+    <string name="your_score" translatable="false">Your Score</string>
+    <string name="thomas_shelby" translatable="false">thomashelby</string>
+    <string name="messi_gmail_com" translatable="false">messiofficial@gmail.com</string>
     <string name="sigma" translatable="false">sigma</string>
     <string name="sigma18_gmail_com" translatable="false">sigma18@gmail.com</string>
-    <string name="quizapp">QuizApp</string>
+    <string name="quizapp" translatable="false">QuizApp</string>
 </resources>
