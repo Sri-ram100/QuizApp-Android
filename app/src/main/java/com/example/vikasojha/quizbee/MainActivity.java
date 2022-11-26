@@ -23,19 +23,14 @@ public class MainActivity extends AppCompatActivity {
                 startbutton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        String name=nametext.getText().toString();
-                        Intent intent=new Intent(getApplicationContext(),QuestionsActivity.class);
-                        intent.putExtra("myname",name);
+                        String name = nametext.getText().toString();
+                        Intent intent = new Intent(getApplicationContext(), QuestionsActivity.class);
+                        intent.putExtra("myname", name);
                         startActivity(intent);
+
                     }
                 });
-
-                aboutbutton.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                    Intent intent=new Intent(getApplicationContext(),DeveloperActivity.class);
-                    startActivity(intent);
-            }
-        });
     }
 }
+
+
